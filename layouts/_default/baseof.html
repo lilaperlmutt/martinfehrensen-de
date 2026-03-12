@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}index.xml">
+</head>
+<body>
+
+  <div class="color-bar"></div>
+
+  <div class="container">
+    <header class="site-header">
+      <div class="inner">
+        <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        <nav>
+          <ul class="site-nav">
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {{ if false }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    {{ else }}
+      <div class="layout">
+        <main>
+          {{ block "main" . }}{{ end }}
+        </main>
+        <aside class="sidebar">
+          {{ partial "sidebar.html" . }}
+        </aside>
+      </div>
+    {{ end }}
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>{{ .Site.Params.footerText | safeHTML }}</p>
+    </div>
+  </footer>
+
+</body>
+</html>

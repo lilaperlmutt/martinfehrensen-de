@@ -1,0 +1,57 @@
+<!-- LIST TEMPLATE AKTIV -->
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<ul class="post-list">
+  {{ range $index, $page := .Pages.ByDate.Reverse }}
+
+  {{/* Nach dem dritten Post (Index 2) die Blogroll einfügen */}}
+  {{ if eq $index 2 }}
+    {{ partial "blogroll.html" . }}
+  {{ end }}
+
+  <li class="post-item{{ if eq .Type "quote" }} post-quote{{ else if eq .Type "link" }} post-link{{ end }}">
+
+    <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+    <div class="post-title-line">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    </div>
+
+    {{ if eq .Type "quote" }}
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+
+    {{ else if eq .Type "link" }}
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+      {{ with .Params.link_url }}
+      <div class="link-card">
+        <a href="{{ . }}" target="_blank" rel="noopener">
+          <div class="link-card-body">
+            <div class="link-card-title">{{ . }}</div>
+            <div class="link-card-domain">{{ . | replaceRE "https?://([^/]+).*" "$1" }}</div>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+
+    {{ else }}
+      <div class="post-body">
+        {{ .Summary }}
+      </div>
+      <div class="read-more">
+        <a href="{{ .Permalink }}">Weiterlesen →</a>
+      </div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="post-tags">
+      {{ range . }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

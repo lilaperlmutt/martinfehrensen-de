@@ -1,3 +1,36 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://lilaperlmutt.github.io/martinfehrensen-de/"
+languageCode = "de"
+title = "Martin Fehrensen"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Martin Fehrensen"
+  footerText = 'Auf dieser Website werden keine Daten gesammelt.'
+
+[menu]
+  [[menu.main]]
+    name = "Über"
+    url  = "/ueber/"
+    weight = 1
+  [[menu.main]]
+    name = "Speaking"
+    url  = "/speaking/"
+    weight = 2
+  [[menu.main]]
+    name = "Newsletter"
+    url  = "/newsletter/"
+    weight = 3
+
+[taxonomies]
+  tag = "tags"
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "index"
+    isPlainText = true
+
+[outputs]
+  home = ["HTML", "RSS"]
