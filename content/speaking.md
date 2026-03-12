@@ -49,4 +49,4 @@ Seit über einem Jahrzehnt analysiere ich Plattformen, Medien und digitale Öffe
 ---
 
 ## Anfragen
-Gern per [E-Mail](mailto:supamakoto@posteo.de) oder über [dieses Formular](https://tally.so/r/XxxgJ4).
+Gern per [E-Mail](mailto:kontakt@martinfehrensen.de) oder über [dieses Formular](https://tally.so/r/XxxgJ4).

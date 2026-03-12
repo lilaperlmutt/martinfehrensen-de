@@ -48,4 +48,4 @@ Folgende Tools und Dienstleister sind aus meinem Alltag nicht wegzudenken: [Stea
 
 ## Kontakt
 
-[Say hi!](mailto:supamakoto@posteo.de)
+[Say hi!](mailto:kontakt@martinfehrensen.de)
