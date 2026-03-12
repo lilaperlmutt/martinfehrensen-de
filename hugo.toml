@@ -6,8 +6,9 @@ title = "Martin Fehrensen"
 enableRobotsTXT = true
 
 [params]
-  description = "Martin Fehrensen"
+  description = "Martin Fehrensen: Journalist & Speaker. Gründer Social Media Watchblog: Newsletter zum Wandel der digitalen Öffentlichkeit."
   footerText = 'Auf dieser Website werden keine Daten gesammelt.'
+  ogImage = "/img/mf.jpg"
 
 [menu]
   [[menu.main]]
