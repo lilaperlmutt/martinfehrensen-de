@@ -1,0 +1,8 @@
+<div class="link-card">
+  <a href="{{ .Get "url" }}" target="_blank" rel="noopener">
+    <div class="link-card-body">
+      <div class="link-card-title">{{ .Get "title" }}</div>
+      <div class="link-card-domain">{{ .Get "url" | replaceRE "https?://([^/]+).*" "$1" }}</div>
+    </div>
+  </a>
+</div>
