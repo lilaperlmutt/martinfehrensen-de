@@ -1,5 +1,6 @@
 ---
-title: "Speaking"
+title: "Martin Fehrensen – Vorträge zu Plattformen, KI und Kommunikation"
+description: "Gründer des Social Media Watchblogs. Vorträge zu Plattformen, KI, Journalismus, Leserfinanzierung und Community-Building."
 layout: "ueber"
 unlisted: true
 date: 2026-01-01
@@ -7,7 +8,6 @@ date: 2026-01-01
 
 ![ARD Social Media Day - 2025](/img/mf-ard.jpeg)
 
-# Martin Fehrensen  
 **Vorträge zu Plattformen, KI und Journalismus**: 
 
 Ich spreche darüber, wie Plattformen und KI Öffentlichkeit, Medien und Kommunikation verändern – und wie Journalisten, NGOs, Verbände und Parteien strategisch reagieren können.

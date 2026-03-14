@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
+Sitemap: https://martinfehrensen.de/sitemap.xml
 
-# KI-Crawler blockieren
+# KI-Crawler blockieren (priorisiert)
 User-agent: GPTBot
 Disallow: /
 
@@ -24,4 +25,7 @@ User-agent: Bytespider
 Disallow: /
 
 User-agent: omgili
+Disallow: /
+
+User-agent: Omgilibot
 Disallow: /
