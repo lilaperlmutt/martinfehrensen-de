@@ -50,7 +50,7 @@ In diesem Vortrag geht es um den Aufbau eines publizistischen Geschäftsmodells 
 
 ## Buchung & Kontakt
 
-**Mail:** [E-Mail](mailto:kontakt@martinfehrensen.de)   
-**Formular:** [Tally](https://tally.so/r/XxxgJ4).
+**E-Mail:** [kontakt (at) martinfehrensen.de](mailto:kontakt@martinfehrensen.de)   
+**Formular:** [Tally](https://tally.so/r/XxxgJ4)
 
 **Honorar nach Vereinbarung zzgl. Spesen.** Flexible Preise je nach Event, Publikum und Format. Auch digitale Formate, Panels oder Workshops sind möglich.
