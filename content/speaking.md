@@ -34,7 +34,7 @@ Martin Fehrensen zeigt, wie diese Infrastrukturen öffentliche Meinungsbildung s
 
 **Plattformen kontrollieren die Distribution, KI verändert Produktion, Sichtbarkeit und Wertschöpfung.**  
 
-Während synthetische Inhalte die Netze fluten und Suchmaschinen immer weniger Traffic liefern („Google Zero“), geraten Journalismus, NGOs und Kommunikationsabteilungen unter doppelten Druck. Martin Fehrensen analysiert, was das für Medien, Politik und Organisationen bedeutet – und warum ihre wichtigste Währung künftig nicht Reichweite, sondern Vertrauen und Community ist.
+Weil synthetische Inhalte die Netze fluten und Suchmaschinen immer weniger Traffic liefern („Google Zero"), geraten Medienschaffende unter doppelten Druck. Martin Fehrensen analysiert, was das für Journalismus, Politik und Organisationen bedeutet – und warum ihre wichtigste Währung künftig nicht Reichweite, sondern Vertrauen und Community ist.
 
 ---
 
