@@ -1,6 +1,10 @@
 {{- $allPages := slice -}}
 {{- range .Site.Sections -}}
-  {{- $allPages = $allPages | append .Pages -}}
+  {{- range .Pages -}}
+    {{- if not .Params.unlisted -}}
+      {{- $allPages = $allPages | append . -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 {{- $allPages = sort $allPages "Date" "desc" -}}
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
@@ -20,7 +24,7 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description>{{ with .Resources.GetMatch (.Params.image) }}{{ $resized := .Resize "800x webp q80" }}&lt;img src="{{ $resized.Permalink }}" /&gt;{{ end }}{{ .Content | html }}</description>
+      <description><![CDATA[{{ with .Resources.GetMatch (.Params.image) }}{{ $resized := .Resize "800x webp q80" }}<img src="{{ $resized.Permalink }}" />{{ end }}{{ .Content }}]]></description>
       {{ with .Resources.GetMatch (.Params.image) }}
         {{ $resized := .Resize "800x webp q80" }}
         <media:content url="{{ $resized.Permalink }}" medium="image" />
