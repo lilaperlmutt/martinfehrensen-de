@@ -1,5 +1,5 @@
 ---
-title: "Aufkleber"
+title: "Fussball"
 date: 2026-03-15
 image: "lev-fcb-1.jpeg"
 tags: ["Life"]
