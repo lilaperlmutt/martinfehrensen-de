@@ -7,4 +7,4 @@ link_url: https://www.socialmediawatchblog.de/ki-sortiert-e-mails-hallo-liest-no
 tags: ["SMWB"]
 pinned: false
 ---
-Im Plattformzeitalter zählen Newsletter zu den wertvollsten Kanälen. Im aktuellen Newsletter geht es darum, warum dieser Kanal jetzt gefährdet ist.
+Im Plattformzeitalter zählen Newsletter zu den wertvollsten Kanälen. Im aktuellen Briefing des SMWB geht es darum, warum dieser Kanal jetzt gefährdet ist.
