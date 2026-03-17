@@ -1,5 +1,5 @@
 ---
-title: "Über"
+title: "About"
 layout: "ueber"
 unlisted: true
 ---

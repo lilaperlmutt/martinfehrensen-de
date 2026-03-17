@@ -1,6 +1,6 @@
 ---
 title: "Die with zero"
-date: 2026-02-12
+date: 2026-03-01
 draft: false
 type: "quote"
 tags: ["Life", "Zitat"]

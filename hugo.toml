@@ -12,8 +12,8 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    name = "Über"
-    url  = "/ueber/"
+    name = "About"
+    url  = "/about/"
     weight = 1
   [[menu.main]]
     name = "Speaking"
