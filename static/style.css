@@ -705,3 +705,55 @@ a:hover {
   width: 1px;
   background: var(--accent);
 }
+
+/* --- Linktree --- */
+.linktree {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+
+.linktree-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.linktree-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.linktree-bio {
+  font-size: 0.85rem;
+  color: var(--text2);
+  margin: 0 0 2rem;
+}
+
+.linktree-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.linktree-card {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--ui);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ui);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.linktree-card:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
