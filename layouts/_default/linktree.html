@@ -1,15 +1,30 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
+</head>
+<body>
 <div class="linktree">
   <img src="/img/mf.jpg" alt="Martin Fehrensen" class="linktree-avatar">
   <h1 class="linktree-name">Martin Fehrensen</h1>
-  <p class="linktree-bio">Newsletter zu Plattformen, KI und digitaler Öffentlichkeit.</p>
+  <p class="linktree-bio">Autor Social Media Watchblog • Ich schreibe seit 2012 einen Newsletter darüber, wie Plattformen und KI unsere Gesellschaft verändern.</p>
 
   <div class="linktree-links">
-    <a href="https://socialmediawatchblog.de" class="linktree-card" target="_blank" rel="noopener">Social Media Watchblog</a>
+    <a href="https://socialmediawatchblog.de" class="linktree-card" target="_blank" rel="noopener">Social Media Watchblog / Newsletter</a>
     <a href="https://martinfehrensen.de" class="linktree-card" target="_blank" rel="noopener">Blog</a>
+    <a href="https://martinfehrensen.de/about" class="linktree-card" target="_blank" rel="noopener">About</a>
+    <a href="https://martinfehrensen.de/speaking" class="linktree-card" target="_blank" rel="noopener">Speaking</a>
     <a href="https://mastodon.social/@martinfehrensen" class="linktree-card" target="_blank" rel="noopener">Mastodon</a>
     <a href="https://bsky.app/profile/martinfehrensen.de" class="linktree-card" target="_blank" rel="noopener">Bluesky</a>
+    <a href="https://www.instagram.com/martinfehrensen/" class="linktree-card" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.linkedin.com/in/martin-fehrensen/" class="linktree-card" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.youtube.com/@martinfehrensen" class="linktree-card" target="_blank" rel="noopener">YouTube</a>
     <a href="mailto:kontakt@martinfehrensen.de" class="linktree-card">E-Mail</a>
   </div>
 </div>
-{{ end }}
+</body>
+</html>
