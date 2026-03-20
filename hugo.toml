@@ -20,9 +20,13 @@ enableRobotsTXT = true
     url  = "/speaking/"
     weight = 2
   [[menu.main]]
+    name = "YouTube"
+    url  = "https://www.youtube.com/@martinfehrensen"
+    weight = 3
+  [[menu.main]]
     name = "Newsletter"
     url  = "https://socialmediawatchblog.de"
-    weight = 3
+    weight = 4
 
 [taxonomies]
   tag = "tags"
