@@ -76,7 +76,78 @@
       "time": "10:00",
       "label": "Di, 12. Mai — 10:00 Uhr",
       "booked": false
+    },
+    {
+      "id": "2026-06-01-10",
+      "date": "2026-06-01",
+      "time": "10:00",
+      "label": "Mo, 1. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-02-10",
+      "date": "2026-06-02",
+      "time": "10:00",
+      "label": "Di, 2. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-08-10",
+      "date": "2026-06-08",
+      "time": "10:00",
+      "label": "Mo, 8. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-09-10",
+      "date": "2026-06-09",
+      "time": "10:00",
+      "label": "Di, 9. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-15-10",
+      "date": "2026-06-15",
+      "time": "10:00",
+      "label": "Mo, 15. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-16-10",
+      "date": "2026-06-16",
+      "time": "10:00",
+      "label": "Di, 16. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-22-10",
+      "date": "2026-06-22",
+      "time": "10:00",
+      "label": "Mo, 22. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-23-10",
+      "date": "2026-06-23",
+      "time": "10:00",
+      "label": "Di, 23. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-29-10",
+      "date": "2026-06-29",
+      "time": "10:00",
+      "label": "Mo, 29. Juni — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-06-30-10",
+      "date": "2026-06-30",
+      "time": "10:00",
+      "label": "Di, 30. Juni — 10:00 Uhr",
+      "booked": false
     }
+
   ],
   "meta": {
     "duration_minutes": 45,

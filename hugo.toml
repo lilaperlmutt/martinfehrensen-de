@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 [params]
   description = "Martin Fehrensen: Journalist & Speaker. Gründer Social Media Watchblog: Newsletter zum Wandel der digitalen Öffentlichkeit."
-  footerText = 'Auf dieser Website werden keine Daten gesammelt.'
+  footerText = 'Made with love, coffee and drum & bass'
   ogImage = "/img/mf.jpg"
   podcastBookingFormspreeId = "xlgpyaqg"
 
