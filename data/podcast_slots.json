@@ -5,7 +5,7 @@
       "date": "2026-04-12",
       "time": "10:00",
       "label": "So, 12. April — 10:00 Uhr",
-      "booked": false
+      "booked": true
     },
     {
       "id": "2026-04-13-10",
