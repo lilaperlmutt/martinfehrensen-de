@@ -1,0 +1,73 @@
+{
+  "slots": [
+     {
+      "id": "2026-04-12-10",
+      "date": "2026-04-12",
+      "time": "10:00",
+      "label": "So, 12. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-13-10",
+      "date": "2026-04-13",
+      "time": "10:00",
+      "label": "Mo, 13. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-14-10",
+      "date": "2026-04-14",
+      "time": "10:00",
+      "label": "Di, 14. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-20-10",
+      "date": "2026-04-20",
+      "time": "10:00",
+      "label": "Mo, 20. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-21-10",
+      "date": "2026-04-21",
+      "time": "10:00",
+      "label": "Di, 21. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-27-10",
+      "date": "2026-04-27",
+      "time": "10:00",
+      "label": "Mo, 27. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-04-28-10",
+      "date": "2026-04-28",
+      "time": "10:00",
+      "label": "Di, 28. April — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-05-04-10",
+      "date": "2026-05-04",
+      "time": "10:00",
+      "label": "Mo, 4. Mai — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-05-05-10",
+      "date": "2026-05-05",
+      "time": "10:00",
+      "label": "Di, 5. Mai — 10:00 Uhr",
+      "booked": false
+    }
+  ],
+  "meta": {
+    "duration_minutes": 45,
+    "timezone": "Europe/Berlin",
+    "host": "Martin Fehrensen",
+    "podcast": "Martin Fehrensen / Gespräch zum digitalen Wandel"
+  }
+}

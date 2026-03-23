@@ -757,3 +757,139 @@ a:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
+
+/* =============================================
+   Podcast Booking Widget
+   Ersetzt den bisherigen Booking-Block in style.css
+   Verwendet die CSS Custom Properties des Blogs
+   ============================================= */
+
+#podcast-booking-widget {
+  max-width: 480px;
+  margin: 2rem 0;
+  font-family: inherit;
+}
+
+.booking-intro {
+  font-size: 0.9rem;
+  color: var(--text2);
+  margin-bottom: 1.25rem;
+}
+
+#slot-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.slot-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: 1px solid var(--ui);
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.slot-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.no-slots {
+  font-size: 0.9rem;
+  color: var(--text2);
+}
+
+/* Step 2: Form */
+#booking-step-2 label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 1rem 0 0.3rem;
+  color: var(--text);
+}
+
+#booking-step-2 input[type="text"],
+#booking-step-2 input[type="email"],
+#booking-step-2 textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--ui);
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--bg);
+  box-sizing: border-box;
+}
+
+#booking-step-2 input:focus,
+#booking-step-2 textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+#booking-step-2 textarea {
+  resize: vertical;
+}
+
+.selected-slot-display {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.75rem 0 1rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg2);
+  border-radius: 3px;
+  color: var(--text);
+}
+
+#back-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.85rem;
+  font-family: var(--font-body);
+  color: var(--text2);
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+#back-btn:hover {
+  color: var(--accent);
+}
+
+#submit-btn {
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.7rem 1.5rem;
+  background: var(--text);
+  color: var(--bg);
+  border: none;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+#submit-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* Step 3: Confirmation */
+.booking-success {
+  font-size: 0.95rem;
+  padding: 1rem;
+  background: var(--bg2);
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
+  color: var(--text);
+}

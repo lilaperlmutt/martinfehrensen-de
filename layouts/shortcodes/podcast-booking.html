@@ -1,0 +1,115 @@
+{{/*
+  Shortcode: podcast-booking
+  Usage: {{< podcast-booking >}}
+  
+  Reads slot data from data/podcast_slots.json
+  Requires Formspree form ID set in site params or passed as argument:
+  {{< podcast-booking formspree_id="your_form_id" >}}
+*/}}
+
+{{ $slots := .Site.Data.podcast_slots }}
+{{ $formspree_id := .Get "formspree_id" | default .Site.Params.podcastBookingFormspreeId }}
+
+<div id="podcast-booking-widget" data-slots='{{ $slots.slots | jsonify }}'>
+  <div id="booking-step-1">
+    <p class="booking-intro">Alle Zeiten in MEZ/MESZ. Dauer: {{ $slots.meta.duration_minutes }} Minuten.</p>
+    <div id="slot-list"></div>
+  </div>
+
+  <div id="booking-step-2" style="display:none;">
+    <button id="back-btn" type="button">← Zurück</button>
+    <p id="selected-slot-label" class="selected-slot-display"></p>
+    <form id="booking-form" action="https://formspree.io/f/{{ $formspree_id }}" method="POST">
+      <input type="hidden" name="slot_id" id="input-slot-id">
+      <input type="hidden" name="slot_label" id="input-slot-label">
+      <input type="hidden" name="_subject" id="input-subject">
+      <input type="hidden" name="_replyto" id="input-replyto-hidden">
+      <input type="hidden" name="_next" value="{{ .Site.BaseURL }}podcast/danke/">
+      
+      <label for="guest-name">Dein Name</label>
+      <input type="text" id="guest-name" name="name" required placeholder="Vorname Nachname">
+
+      <label for="guest-email">Deine E-Mail-Adresse</label>
+      <input type="email" id="guest-email" name="email" required placeholder="du@beispiel.de">
+
+      <label for="guest-note">Kurze Notiz (optional)</label>
+      <textarea id="guest-note" name="notiz" rows="3" placeholder="Thema, Kontext, Fragen …"></textarea>
+
+      <button type="submit" id="submit-btn">Termin reservieren</button>
+    </form>
+  </div>
+
+  <div id="booking-step-3" style="display:none;">
+    <p class="booking-success">✓ Termin reserviert. Ich melde mich bei dir.</p>
+  </div>
+</div>
+
+<script>
+(function() {
+  const widget = document.getElementById('podcast-booking-widget');
+  const rawSlots = JSON.parse(widget.dataset.slots);
+  
+  // Filter out booked slots
+  const availableSlots = rawSlots.filter(s => !s.booked);
+
+  const slotList = document.getElementById('slot-list');
+  const step1 = document.getElementById('booking-step-1');
+  const step2 = document.getElementById('booking-step-2');
+  const step3 = document.getElementById('booking-step-3');
+  const backBtn = document.getElementById('back-btn');
+  const form = document.getElementById('booking-form');
+  const selectedLabel = document.getElementById('selected-slot-label');
+
+  // Render slots
+  if (availableSlots.length === 0) {
+    slotList.innerHTML = '<p class="no-slots">Aktuell sind keine freien Termine verfügbar. Meld dich gern per Mail.</p>';
+  } else {
+    availableSlots.forEach(slot => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'slot-btn';
+      btn.textContent = slot.label;
+      btn.dataset.slotId = slot.id;
+      btn.dataset.slotLabel = slot.label;
+      btn.addEventListener('click', function() {
+        document.getElementById('input-slot-id').value = slot.id;
+        document.getElementById('input-slot-label').value = slot.label;
+        document.getElementById('input-subject').value = 'Podcast-Termin: ' + slot.label;
+        selectedLabel.textContent = slot.label;
+        step1.style.display = 'none';
+        step2.style.display = 'block';
+      });
+      slotList.appendChild(btn);
+    });
+  }
+
+  backBtn.addEventListener('click', function() {
+    step2.style.display = 'none';
+    step1.style.display = 'block';
+  });
+
+  // Sync email to _replyto for Formspree auto-reply
+  document.getElementById('guest-email').addEventListener('input', function() {
+    document.getElementById('input-replyto-hidden').value = this.value;
+  });
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(res => {
+      if (res.ok) {
+        step2.style.display = 'none';
+        step3.style.display = 'block';
+      } else {
+        alert('Etwas ist schiefgelaufen. Bitte versuch es nochmal oder schreib mir direkt eine Mail.');
+      }
+    }).catch(() => {
+      alert('Netzwerkfehler. Bitte versuch es nochmal.');
+    });
+  });
+})();
+</script>
