@@ -62,6 +62,20 @@
       "time": "10:00",
       "label": "Di, 5. Mai — 10:00 Uhr",
       "booked": false
+    },
+    {
+      "id": "2026-05-11-10",
+      "date": "2026-05-11",
+      "time": "10:00",
+      "label": "Mo, 11. Mai — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-05-12-10",
+      "date": "2026-05-12",
+      "time": "10:00",
+      "label": "Di, 12. Mai — 10:00 Uhr",
+      "booked": false
     }
   ],
   "meta": {
