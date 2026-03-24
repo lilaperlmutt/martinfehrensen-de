@@ -19,7 +19,7 @@
       "date": "2026-04-14",
       "time": "10:00",
       "label": "Di, 14. April — 10:00 Uhr",
-      "booked": false
+      "booked": true
     },
     {
       "id": "2026-04-20-10",
