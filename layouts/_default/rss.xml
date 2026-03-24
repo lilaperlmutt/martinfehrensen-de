@@ -24,10 +24,12 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description><![CDATA[{{ with .Resources.GetMatch (.Params.image) }}{{ $resized := .Resize "800x webp q80" }}<img src="{{ $resized.Permalink }}" />{{ end }}{{ .Content }}]]></description>
-      {{ with .Resources.GetMatch (.Params.image) }}
-        {{ $resized := .Resize "800x webp q80" }}
-        <media:content url="{{ $resized.Permalink }}" medium="image" />
+      <description><![CDATA[{{ if ne .Params.rss_image false }}{{ with .Resources.GetMatch (.Params.image) }}{{ $resized := .Resize "800x webp q80" }}<img src="{{ $resized.Permalink }}" />{{ end }}{{ end }}{{ .Content }}]]></description>
+      {{ if ne .Params.rss_image false }}
+        {{ with .Resources.GetMatch (.Params.image) }}
+          {{ $resized := .Resize "800x webp q80" }}
+          <media:content url="{{ $resized.Permalink }}" medium="image" />
+        {{ end }}
       {{ end }}
     </item>
     {{ end }}
