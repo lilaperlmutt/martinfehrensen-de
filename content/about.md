@@ -8,7 +8,7 @@ unlisted: true
 
 ## Über mich
 
-Ich schreibe seit 2012 [einen Newsletter](https://socialmediawatchblog.de) darüber, wie Plattformen und KI unsere Gesellschaft verändern. Mich interessiert nicht, wie man mehr Likes und Follower bekommt. Mich interessiert, was der Wandel der digitalen Öffentlichkeit bedeutet.
+Ich schreibe seit 2013 [einen Newsletter](https://socialmediawatchblog.de) darüber, wie Plattformen und KI unsere Gesellschaft verändern. Mich interessiert nicht, wie man mehr Likes und Follower bekommt. Mich interessiert, was der Wandel der digitalen Öffentlichkeit bedeutet.
 
 Wie verändern sich Journalismus, Meinungsbildung und Wissensvermittlung, wenn sich immer mehr Menschen über Social Media und Chatbots informieren? Und was macht das mit uns als Gesellschaft?
 
