@@ -28,6 +28,10 @@ enableRobotsTXT = true
     name = "Newsletter"
     url  = "https://socialmediawatchblog.de"
     weight = 4
+  [[menu.main]]
+    name = "Podcast"
+    url  = "https://fehrensen.transistor.fm"
+    weight = 5
 
 [taxonomies]
   tag = "tags"

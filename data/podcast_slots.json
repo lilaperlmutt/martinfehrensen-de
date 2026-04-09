@@ -1,54 +1,5 @@
 {
   "slots": [
-     {
-      "id": "2026-04-12-10",
-      "date": "2026-04-12",
-      "time": "10:00",
-      "label": "So, 12. April — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-04-13-10",
-      "date": "2026-04-13",
-      "time": "10:00",
-      "label": "Mo, 13. April — 10:00 Uhr",
-      "booked": false
-    },
-    {
-      "id": "2026-04-14-10",
-      "date": "2026-04-14",
-      "time": "10:00",
-      "label": "Di, 14. April — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-04-20-10",
-      "date": "2026-04-20",
-      "time": "10:00",
-      "label": "Mo, 20. April — 10:00 Uhr",
-      "booked": false
-    },
-    {
-      "id": "2026-04-21-10",
-      "date": "2026-04-21",
-      "time": "10:00",
-      "label": "Di, 21. April — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-04-27-10",
-      "date": "2026-04-27",
-      "time": "10:00",
-      "label": "Mo, 27. April — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-04-28-10",
-      "date": "2026-04-28",
-      "time": "10:00",
-      "label": "Di, 28. April — 10:00 Uhr",
-      "booked": true
-    },
     {
       "id": "2026-05-04-10",
       "date": "2026-05-04",
@@ -68,13 +19,27 @@
       "date": "2026-05-11",
       "time": "10:00",
       "label": "Mo, 11. Mai — 10:00 Uhr",
-      "booked": false
+      "booked": true
     },
     {
       "id": "2026-05-12-10",
       "date": "2026-05-12",
       "time": "10:00",
       "label": "Di, 12. Mai — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-05-18-10",
+      "date": "2026-05-18",
+      "time": "10:00",
+      "label": "Mo, 18. Mai — 10:00 Uhr",
+      "booked": true
+    },
+    {
+      "id": "2026-05-19-10",
+      "date": "2026-05-19",
+      "time": "10:00",
+      "label": "Di, 19. Mai — 10:00 Uhr",
       "booked": false
     },
     {
