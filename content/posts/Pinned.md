@@ -5,7 +5,7 @@ draft: false
 tags: ["Meta"]
 description: "Willkommen"
 reply: true
-pinned: true
+pinned: false
 ---
 
 Hi, ich schreibe seit 2013 einen Newsletter darüber, wie Plattformen und KI unsere Gesellschaft verändern. Mich interessiert nicht, wie man mehr Likes und Follower bekommt. Mich interessiert, was der Wandel der digitalen Öffentlichkeit bedeutet.
