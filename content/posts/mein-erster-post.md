@@ -4,6 +4,9 @@ date: 2026-02-11
 draft: false
 tags: ["Bloggen"]
 description: "Endlich wieder bloggen."
+build:
+  list: never
+  render: always
 ---
 
 ![Beschreibung](/img/mf.jpg)

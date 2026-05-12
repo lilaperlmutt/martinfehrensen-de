@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Reichweite ist der Sirenengesang des 21. Jahrhunderts."
 reply: true
+build:
+  list: never
+  render: always
 ---
 
 So, jetzt ist es einen Monat her, dass ich meinen Newsletter umgebaut habe. Seitdem habe ich insgesamt fünf Gespräche geführt, bei YouTube, Spotify und Co. veröffentlicht und die wichtigsten Learnings in Briefings verarbeitet. 

@@ -6,5 +6,8 @@ type: "link"
 link_url: https://www.socialmediawatchblog.de/ki-sortiert-e-mails-hallo-liest-noch-jemand-diesen-newsletter/
 tags: ["SMWB"]
 pinned: false
+build:
+  list: never
+  render: always
 ---
 Im Plattformzeitalter zählen Newsletter zu den wertvollsten Kanälen. Im aktuellen Briefing des SMWB geht es darum, warum dieser Kanal jetzt gefährdet ist.

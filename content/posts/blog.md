@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Blog oder Landingpage?"
 reply: true
+build:
+  list: never
+  render: always
 ---
 Es dauert keine drei Wochen mehr, dann gehen Simon und ich getrennte Wege. Es ist [ein Abschied und ein Anfang](https://www.socialmediawatchblog.de/ein-abschied-und-ein-anfang/). Ein Abschied vom besten Kollegen, den ich mir für das Social Media Watchblog hätte wünschen können. Ein Anfang, von dem ich noch nicht weiß, was daraus folgt. Das Social Media Watchblog hat sich in den acht gemeinsamen Jahren immer stärker Richtung professionelles Briefing entwickelt. Das ist grundsätzlich auch richtig gewesen. Und dennoch spüre ich, dass ich so nicht weitermachen möchte und einen Richtungswechsel brauche. Dieser Blog ist ein erster Schritt. 
 

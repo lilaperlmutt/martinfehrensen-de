@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Podcast und Newsletter sind eine gute Kombi, aber auch viel Arbeot"
 reply: true
+build:
+  list: never
+  render: always
 ---
 
 [ ![Interview Vogelsang](/img/thumbnail-sebastian-vogelsang.jpg) ](https://youtu.be/suN9_DYg-Jo)

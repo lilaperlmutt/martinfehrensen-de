@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Warum mir freie Newsletter-Subs nichts bringen"
 reply: true
+build:
+  list: never
+  render: always
 ---
 Beim Social Media Watchblog haben wir über die Jahre immer wieder unterschiedliche Methoden ausprobiert, um Menschen unsere Arbeit näherzubringen. Ein erprobtes Mittel, um Leute davon zu überzeugen, Mitglied zu werden, lautet: Sieh zu, dass du sie als Newsletter-Subscriber gewinnst. Dann kannst du sie, so die Logik, in der Folge immer mal wieder mit deinen Inhalten beglücken und darauf hoffen, dass sie Mitglied werden. Vielleicht erstellst du sogar eine automatisierte E-Mail-Kampagne, in der du dich und deine Arbeit vorstellst. Genau das haben wir in verschiedensten Varianten durchexerziert. 
 

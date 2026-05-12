@@ -3,6 +3,9 @@ title: Social-Media-Verbot - Warum es dich betrifft, auch wenn du längst erwach
 date: 2026-03-13
 draft: false
 tags: ["SMWB"]
+build:
+  list: never
+  render: always
 ---
 
 [Im aktuellen Newsletter](https://www.socialmediawatchblog.de/social-media-verbot-warum-es-dich-betrifft-auch-wenn-du-langst-erwachsen-bist/) geht es um die Frage, die bei der Debatte um ein mögliches Social-Media-Verbot keiner stellt:

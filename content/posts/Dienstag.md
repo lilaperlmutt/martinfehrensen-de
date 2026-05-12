@@ -6,6 +6,9 @@ tags: ["Work"]
 description: "Heute habe ich zum letzten Mal das Briefing am Dienstag verschickt."
 reply: true
 rss_image: false
+build:
+  list: never
+  render: always
 ---
 Als wir zum 30.8.2018 beim Social Media Watchblog [die Paywall hochgezogen haben](https://www.socialmediawatchblog.de/alle-infos-zur-einfuehrung-der-paywall/), hätte die Aufregung kaum größer sein können:
 

@@ -6,4 +6,7 @@ type: "link"
 link_url: https://www.socialmediawatchblog.de/meta-ray-ban-ein-traum-fur-meta-ein-albtraum-fur-die-privatsphare/
 tags: ["SMWB"]
 pinned: false
+build:
+  list: never
+  render: always
 ---

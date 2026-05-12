@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Ingrid Brodnig über Gewalt gegen Frauen"
 reply: true
+build:
+  list: never
+  render: always
 ---
 
 Gesagt, getan: Die erste Folge meiner neuen Gesprächsreihe [ist live](https://youtu.be/KccL3fepoDs). Starke 30 Minuten mit Ingrid Brodnig über digitale Gewalt. So viel Arbeit. Aber auch so viel Freude. Inhaltlich, aber auch technisch. Noch nie auf YouTube, Apple, Spotify und Co. gleichzeitig publiziert. Extrem steile Lernkurve. Endlich mal wieder Gäste anfragen, öffentlich Interviews führen, schneiden, verpacken. Zack. Online. Jetzt erstmal gucken, wie das Feedback ist. Die ersten Signale sind super positiv. Hach.

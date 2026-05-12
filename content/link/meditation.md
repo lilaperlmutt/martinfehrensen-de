@@ -5,5 +5,8 @@ draft: false
 type: "link"
 link_url: https://www.wired.com/story/study-of-buddhist-monks-finds-meditation-alters-brain-activity/
 tags: ["Meditation", "Link"]
+build:
+  list: never
+  render: always
 ---
 

@@ -4,6 +4,9 @@ date: 2026-03-01
 draft: false
 tags: ["Radfahren"]
 description: "Fitness kommt und geht."
+build:
+  list: never
+  render: always
 ---
 
 Seit 2021 fahre ich regelmäßig Rennrad und Gravel. Jedes Jahr aufs Neue schaffe ich es, im Frühling richtig Fitness aufzubauen. Bislang habe ich es aber nie geschafft, die Fitness über den Herbst und Winter zu halten. Das liegt vor allem daran, dass Zwift einfach nicht so Bock macht, wie draußen zu fahren. 

@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Mehr Banksy wagen"
 reply: true
+build:
+  list: never
+  render: always
 ---
 
 Mit der Fam in Rotterdam gewesen. Dort die Ausstellung ["House of Banksy"](https://house-of-banksy.com) angeschaut. Sehr lohnenswert. Für mich defintiv eine Inspiration. Deutlich mehr Kritik an Kapitalismus, Konsumwahn und Überwachung wagen. Zu seinen Werten und Überzeugungen stehen. Ihnen Form geben. Ungewöhnlich. Unabhängig. 

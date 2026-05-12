@@ -4,6 +4,9 @@ date: 2026-03-18
 draft: false
 type: "quote"
 tags: ["Zitat", "Internet"]
+build:
+  list: never
+  render: always
 ---
 
 Das offene Web endet. Es beginnt ein Modell, in dem Überleben von Markenstärke, Direktbeziehungen und Plattformgnade abhängt. 

@@ -5,6 +5,9 @@ draft: false
 tags: ["Work"]
 description: "Gesprächsreihe auf YouTube ab April"
 reply: true
+build:
+  list: never
+  render: always
 ---
 Als ich anfing, mir darüber Gedanken zu machen, wie das Social Media Watchblog wohl nach [Simons Abgang](https://www.socialmediawatchblog.de/ein-abschied-und-ein-anfang/) aussehen könnte, wurde mir eine Sache ziemlich schnell klar: Ich will mehr Gespräche führen. Nicht nur unter 3 zur Erweiterung meines eigenen Horizonts, sondern öffentlich. 
 
