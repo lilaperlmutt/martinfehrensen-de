@@ -30,8 +30,6 @@ Ich spreche darüber, wie Plattformen und KI Öffentlichkeit, Medien und politis
 
 Wie das die öffentliche Meinungsbildung verändert, wie eng Politik und Tech-Konzerne miteinander verflochten sind – und warum der Umgang mit Information zu einer der zentralen demokratischen Fragen unserer Zeit geworden ist.
 
-[Link](https://docs.google.com/presentation/d/1Oppwi9IjDug2ukQWG17GGY5ZoWxmzgtvY6DOJBiIwzo/edit?usp=sharing)
-
 ---
 
 ### Die doppelte Disruption der digitalen Kommunikation
