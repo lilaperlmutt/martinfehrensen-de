@@ -1,7 +1,7 @@
 ---
 title: "Stege"
 date: 2026-08-27
-image: "stege.jpeg"
+image: "stege.jpg"
 tags: ["Leben"]
 noindex: true
 ---
