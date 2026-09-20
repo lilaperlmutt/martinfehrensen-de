@@ -5,4 +5,4 @@ image: "aufkleber.jpeg"
 tags: ["Radfahren"]
 noindex: true
 ---
-Noch so viele Aufkleber, die geklebet werden wollen. Einfach bei jedem Ride mindestens einen verteilen.
+Noch so viele Aufkleber, die geklebt werden wollen. Einfach bei jedem Ride mindestens einen verteilen.
