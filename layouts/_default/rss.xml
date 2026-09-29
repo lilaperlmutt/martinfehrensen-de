@@ -24,13 +24,36 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description><![CDATA[{{ if ne .Params.rss_image false }}{{ with .Resources.GetMatch (.Params.image) }}{{ $resized := .Resize "800x webp q80" }}<img src="{{ $resized.Permalink }}" />{{ end }}{{ end }}{{ .Content }}]]></description>
+
+      {{/* Bild-Ressource ermitteln */}}
+      {{ $imgURL := "" }}
+      {{ $imgType := "image/jpeg" }}
+      {{ $imgLength := 0 }}
+
       {{ if ne .Params.rss_image false }}
+        {{/* 1. Versuch: Aus Page Resources (Page Bundle) holen und als JPG resizen */}}
         {{ with .Resources.GetMatch (.Params.image) }}
-          {{ $resized := .Resize "800x webp q80" }}
-          <media:content url="{{ $resized.Permalink }}" medium="image" />
+          {{ $resized := .Resize "800x jpg q80" }}
+          {{ $imgURL = $resized.Permalink }}
+          {{ $imgLength = len $resized.Content }}
+        {{/* 2. Versuch: Falls als globaler Pfad in static/ angegeben */}}
+        {{ else if .Params.image }}
+          {{ $imgURL = .Params.image | absURL }}
         {{ end }}
       {{ end }}
+
+      {{/* RSS Enclosure & Media Content Tags */}}
+      {{ if $imgURL }}
+        <enclosure url="{{ $imgURL }}" length="{{ $imgLength }}" type="{{ $imgType }}" />
+        <media:content url="{{ $imgURL }}" medium="image" />
+      {{ end }}
+
+      <description><![CDATA[
+        {{- if $imgURL -}}
+          <p><img src="{{ $imgURL }}" alt="{{ .Title }}" /></p>
+        {{- end -}}
+        {{ .Content }}
+      ]]></description>
     </item>
     {{ end }}
   </channel>
