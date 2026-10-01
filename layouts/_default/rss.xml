@@ -13,17 +13,17 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}</link>
+    <link>{{ .Site.BaseURL | xmlEscape }}</link>
     <description>{{ .Site.Params.description }}</description>
     <generator>Hugo</generator>
     <language>{{ .Site.Language.Lang }}</language>
-    <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ .Site.BaseURL | xmlEscape }}index.xml" rel="self" type="application/rss+xml" />
     {{ range $allPages }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
+      <link>{{ .Permalink | xmlEscape }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
-      <guid>{{ .Permalink }}</guid>
+      <guid>{{ .Permalink | xmlEscape }}</guid>
 
       {{/* Bild-Ressource ermitteln */}}
       {{ $imgURL := "" }}
@@ -46,8 +46,8 @@
 
       {{/* RSS Enclosure & Media Content Tags */}}
       {{ if $imgURL }}
-        <enclosure url="{{ $imgURL }}" length="{{ $imgLength }}" type="{{ $imgType }}" />
-        <media:content url="{{ $imgURL }}" medium="image" />
+        <enclosure url="{{ $imgURL | xmlEscape }}" length="{{ $imgLength }}" type="{{ $imgType }}" />
+        <media:content url="{{ $imgURL | xmlEscape }}" medium="image" />
       {{ end }}
 
       <description><![CDATA[
