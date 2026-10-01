@@ -36,9 +36,11 @@
           {{ $resized := .Resize "800x jpg q80" }}
           {{ $imgURL = $resized.Permalink }}
           {{ $imgLength = len $resized.Content }}
-        {{/* 2. Versuch: Falls als globaler Pfad in static/ angegeben */}}
-        {{ else if .Params.image }}
-          {{ $imgURL = .Params.image | absURL }}
+        {{ else }}
+          {{/* 2. Versuch: Falls als globaler Pfad in static/ angegeben */}}
+          {{ if .Params.image }}
+            {{ $imgURL = .Params.image | absURL }}
+          {{ end }}
         {{ end }}
       {{ end }}
 
