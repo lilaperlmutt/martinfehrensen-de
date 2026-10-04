@@ -4,6 +4,7 @@ description: "Gründer des Social Media Watchblogs. Vorträge zu Plattformen, KI
 layout: "ueber"
 unlisted: true
 date: 2026-01-01
+reply: true
 ---
 
 ![ARD Social Media Day - 2025](/img/mf-ard.jpeg)
@@ -14,7 +15,6 @@ date: 2026-01-01
 
 *Martin Fehrensen ist Journalist und Herausgeber des Social Media Watchblog. Seit 2013 beobachtet er, wie Plattformen und KI Öffentlichkeit, Medien und politische Kommunikation verändern, und zeigt, wie Journalist:innen, Organisationen und Politik strategisch darauf reagieren können. Der Newsletter ist unabhängig, werbefrei und vollständig leserfinanziert, für den Grimme Online Award nominiert und mit dem Vocer Netzwende-Award ausgezeichnet.*
 
-Keynote, Impuls mit Diskussion oder Workshop für Medien, NGOs, Verbände, Parteien, Ministerien und Behörden sowie Kommunikationsabteilungen.
 
 ---
 
