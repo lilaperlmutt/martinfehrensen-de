@@ -685,6 +685,19 @@ a:hover {
   color: var(--accent);
 }
 
+.post-reply {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 1.5em;
+}
+
+.post-instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
 .post-body blockquote {
   margin: 1.5rem 0;
   padding: 0.25rem 0 0.25rem 1.25rem;
