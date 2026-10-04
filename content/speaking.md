@@ -6,51 +6,67 @@ unlisted: true
 date: 2026-01-01
 ---
 
+Keynote, Impuls mit Diskussion oder Workshop für Medien, NGOs, Verbände, Parteien, Ministerien und Behörden sowie Kommunikationsabteilungen.
+
 ![ARD Social Media Day - 2025](/img/mf-ard.jpeg)
 
 ## Martin Fehrensen
 
-**Vorträge zu Plattformen, KI und digitaler Öffentlichkeit**: 
+**Vorträge und Workshops zu Plattformen, KI und digitaler Öffentlichkeit**
 
-*Martin Fehrensen ist Journalist und Herausgeber des Social Media Watchblog, einem der bekanntesten unabhängigen Newsletter zu Plattformpolitik und digitaler Öffentlichkeit im deutschsprachigen Raum.*
-
-Ich spreche darüber, wie Plattformen und KI Öffentlichkeit, Medien und politische Kommunikation verändern – und wie Journalisten, NGOs, Verbände und Parteien strategisch darauf reagieren können.
-
-**Geeignet für:** Medienkonferenzen, Tech-Events, Politikveranstaltungen, NGO-Kongresse sowie Veranstaltungen von Organisationen und Kommunikationsabteilungen.
-
-**Formate:** Keynote (20–30 Min.), Vortrag (45–60 Min.) + Q&A.
+*Martin Fehrensen ist Journalist und Herausgeber des Social Media Watchblog. Seit 2013 beobachtet er, wie Plattformen und KI Öffentlichkeit, Medien und politische Kommunikation verändern, und zeigt, wie Journalist:innen, Organisationen und Politik strategisch darauf reagieren können. Der Newsletter ist unabhängig, werbefrei und vollständig leserfinanziert, für den Grimme Online Award nominiert und mit dem Vocer Netzwende-Award ausgezeichnet.*
 
 ---
 
-## Vorträge
+## Themen
 
 ### Wer kontrolliert die Öffentlichkeit?
 
-**Welche Themen sichtbar werden, welche Debatten eskalieren und welche Perspektiven verschwinden, wird zunehmend von Plattformen, ihren Empfehlungssystemen und neuen KI‑Systemen bestimmt.** 
-
-Wie das die öffentliche Meinungsbildung verändert, wie eng Politik und Tech-Konzerne miteinander verflochten sind – und warum der Umgang mit Information zu einer der zentralen demokratischen Fragen unserer Zeit geworden ist.
+Welche Themen sichtbar werden, welche Debatten eskalieren und welche Perspektiven verschwinden, bestimmen zunehmend Plattformen, ihre Empfehlungssysteme und KI-Systeme. Der Vortrag zeigt, wie das die Meinungsbildung verändert, wie eng Politik und Tech-Konzerne verflochten sind und warum der Umgang mit Information zu einer zentralen demokratischen Frage geworden ist.
 
 ---
 
 ### Die doppelte Disruption der digitalen Kommunikation
 
-**Plattformen kontrollieren die Distribution, KI verändert Produktion, Sichtbarkeit und Wertschöpfung.**  
+Plattformen kontrollieren die Distribution, KI verändert Produktion, Sichtbarkeit und Wertschöpfung. Synthetische Inhalte fluten die Netze, Suchmaschinen liefern weniger Traffic ("Google Zero"). Was das für Journalismus, Politik und Organisationen bedeutet und warum künftig Vertrauen und Community wichtiger sein werden als Reichweite.
 
-Weil synthetische Inhalte die Netze fluten und Suchmaschinen immer weniger Traffic liefern ("Google Zero"), geraten Medienschaffende unter doppelten Druck. Martin Fehrensen analysiert, was das für Journalismus, Politik und Organisationen bedeutet – und warum künftig nicht Reichweite, sondern Vertrauen und Community ihre wichtigste Währung sein werden.
+---
+
+### Kommunikation in Zeiten von Plattformen und KI: Worauf es jetzt ankommt
+
+Wie erreichen Organisationen, Behörden und Politik noch Menschen, wenn Plattformen die Sichtbarkeit steuern und KI-Systeme Antworten liefern, bevor jemand eine Website besucht? Ein Impuls mit Diskussion über:
+
+<ul>
+<li>wie Plattformen und Algorithmen Reichweite verteilen und was Kommunikation davon beeinflussen kann,</li>
+<li>wo KI die Arbeit wirklich erleichtert und wo sie Risiken schafft,</li>
+<li>worauf Kommunikationsverantwortliche bei Strategie und Ressourcen jetzt setzen sollten.</li>
+</ul>
 
 ---
 
 ### Indie‑Journalismus ohne Verlag, ohne Investoren
 
-**Das Social Media Watchblog begann als kleines Nebenprojekt und ist heute ein eigenständiges, vollständig leserfinanziertes Medium.**
-
-In diesem Vortrag geht es um den Aufbau eines publizistischen Geschäftsmodells jenseits von Reichweitenlogik und Plattformabhängigkeit: um Entscheidungen, Fehler, Abos und Community – und darum, was Journalisten, NGOs, Politiker und Kommunikationsverantwortliche daraus lernen können.
+Das Social Media Watchblog begann als Nebenprojekt und ist heute ein vollständig leserfinanziertes Medium. Ein Einblick in Entscheidungen, Fehler, Abos und Community und in das, was Journalist:innen, NGOs, Politiker:innen und Kommunikationsverantwortliche daraus für Modelle jenseits von Reichweitenlogik und Plattformabhängigkeit mitnehmen können.
 
 ---
 
-## Buchung & Kontakt
+## Formate
+
+<ul>
+<li>Keynote (20–30 Min.)</li>
+<li>Impuls mit Diskussion oder Vortrag mit Q&A (45–60 Min.)</li>
+<li>Workshop (Dauer nach Absprache)</li>
+<li>vor Ort oder digital, auch Panels</li>
+</ul>
+
+## Referenzen
+
+ARD, ZDF, Deutsche Welle, Microsoft, re:publica, faktor3, RTL Journalistenschule, Henri-Nannen-Schule, Gruner+Jahr, SPD, IG Metall, Heinrich-Böll-Stiftung, Auswärtiges Amt, uvm.
+
+## Anfragen
+
+Honorar je nach Format und Aufwand zzgl. Spesen. Ein Angebot kommt in der Regel innerhalb von zwei Werktagen.
 
 **E-Mail:** [kontakt (at) martinfehrensen.de](mailto:kontakt@martinfehrensen.de)   
 **Formular:** [Tally](https://tally.so/r/XxxgJ4)
 
-**Honorar nach Vereinbarung zzgl. Spesen.** Flexible Preise je nach Event, Publikum und Format. Auch digitale Formate, Panels oder Workshops sind möglich.
