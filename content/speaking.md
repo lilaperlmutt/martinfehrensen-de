@@ -6,8 +6,6 @@ unlisted: true
 date: 2026-01-01
 ---
 
-Keynote, Impuls mit Diskussion oder Workshop für Medien, NGOs, Verbände, Parteien, Ministerien und Behörden sowie Kommunikationsabteilungen.
-
 ![ARD Social Media Day - 2025](/img/mf-ard.jpeg)
 
 ## Martin Fehrensen
@@ -15,6 +13,8 @@ Keynote, Impuls mit Diskussion oder Workshop für Medien, NGOs, Verbände, Parte
 **Vorträge und Workshops zu Plattformen, KI und digitaler Öffentlichkeit**
 
 *Martin Fehrensen ist Journalist und Herausgeber des Social Media Watchblog. Seit 2013 beobachtet er, wie Plattformen und KI Öffentlichkeit, Medien und politische Kommunikation verändern, und zeigt, wie Journalist:innen, Organisationen und Politik strategisch darauf reagieren können. Der Newsletter ist unabhängig, werbefrei und vollständig leserfinanziert, für den Grimme Online Award nominiert und mit dem Vocer Netzwende-Award ausgezeichnet.*
+
+Keynote, Impuls mit Diskussion oder Workshop für Medien, NGOs, Verbände, Parteien, Ministerien und Behörden sowie Kommunikationsabteilungen.
 
 ---
 
@@ -36,11 +36,9 @@ Plattformen kontrollieren die Distribution, KI verändert Produktion, Sichtbarke
 
 Wie erreichen Organisationen, Behörden und Politik noch Menschen, wenn Plattformen die Sichtbarkeit steuern und KI-Systeme Antworten liefern, bevor jemand eine Website besucht? Ein Impuls mit Diskussion über:
 
-<ul>
-<li>wie Plattformen und Algorithmen Reichweite verteilen und was Kommunikation davon beeinflussen kann,</li>
-<li>wo KI die Arbeit wirklich erleichtert und wo sie Risiken schafft,</li>
-<li>worauf Kommunikationsverantwortliche bei Strategie und Ressourcen jetzt setzen sollten.</li>
-</ul>
+- wie Plattformen und Algorithmen Reichweite verteilen und was Kommunikation davon beeinflussen kann,
+- wo KI die Arbeit wirklich erleichtert und wo sie Risiken schafft,
+- worauf Kommunikationsverantwortliche bei Strategie und Ressourcen jetzt setzen sollten.
 
 ---
 
@@ -52,12 +50,10 @@ Das Social Media Watchblog begann als Nebenprojekt und ist heute ein vollständi
 
 ## Formate
 
-<ul>
-<li>Keynote (20–30 Min.)</li>
-<li>Impuls mit Diskussion oder Vortrag mit Q&A (45–60 Min.)</li>
-<li>Workshop (Dauer nach Absprache)</li>
-<li>vor Ort oder digital, auch Panels</li>
-</ul>
+- Keynote (20–30 Min.)
+- Impuls mit Diskussion oder Vortrag mit Q&A (45–60 Min.)
+- Workshop (Dauer nach Absprache)
+- vor Ort oder digital, auch Panels
 
 ## Referenzen
 
