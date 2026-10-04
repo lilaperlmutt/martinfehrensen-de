@@ -53,13 +53,24 @@
         {{ $page.Content }}
 </div>
     {{ end }}
-    {{ if $page.Params.reply }}
+    {{ if or $page.Params.reply $page.Params.instagram }}
 <div class="post-reply">
+  {{ if $page.Params.reply }}
   <a href="#" class="post-reply-link" data-title="{{ $page.Title }}" data-url="https://martinfehrensen.de{{ $page.RelPermalink }}" onclick="
     var t = encodeURIComponent('Re: ' + this.dataset.title);
     var b = encodeURIComponent(this.dataset.url + '\n\n');
     this.href = 'mai' + 'lto:' + 'kontakt' + '@' + 'martinfehrensen' + '.' + 'de' + '?subject=' + t + '&body=' + b;
   ">↩ Antworten</a>
+  {{ end }}
+  {{ with $page.Params.instagram }}
+  <a href="{{ . }}" class="post-reply-link post-instagram-link" rel="noopener" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/>
+      <circle cx="12" cy="13" r="3"/>
+    </svg>
+    Instagram
+  </a>
+  {{ end }}
 </div>
 {{ end }}
     {{ with $page.Params.tags }}
