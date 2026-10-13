@@ -1,111 +1,195 @@
+```json
 {
   "slots": [
     {
-      "id": "2026-05-04-10",
-      "date": "2026-05-04",
+      "id": "2026-11-02-10",
+      "date": "2026-11-02",
       "time": "10:00",
-      "label": "Mo, 4. Mai — 10:00 Uhr",
+      "label": "Mo, 2. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-05-05-10",
-      "date": "2026-05-05",
+      "id": "2026-11-03-10",
+      "date": "2026-11-03",
       "time": "10:00",
-      "label": "Di, 5. Mai — 10:00 Uhr",
+      "label": "Di, 3. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-05-11-10",
-      "date": "2026-05-11",
+      "id": "2026-11-04-10",
+      "date": "2026-11-04",
       "time": "10:00",
-      "label": "Mo, 11. Mai — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-05-12-10",
-      "date": "2026-05-12",
-      "time": "10:00",
-      "label": "Di, 12. Mai — 10:00 Uhr",
+      "label": "Mi, 4. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-05-18-10",
-      "date": "2026-05-18",
+      "id": "2026-11-06-10",
+      "date": "2026-11-06",
       "time": "10:00",
-      "label": "Mo, 18. Mai — 10:00 Uhr",
-      "booked": true
-    },
-    {
-      "id": "2026-05-19-10",
-      "date": "2026-05-19",
-      "time": "10:00",
-      "label": "Di, 19. Mai — 10:00 Uhr",
+      "label": "Fr, 6. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-01-10",
-      "date": "2026-06-01",
+      "id": "2026-11-09-10",
+      "date": "2026-11-09",
       "time": "10:00",
-      "label": "Mo, 1. Juni — 10:00 Uhr",
+      "label": "Mo, 9. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-08-10",
-      "date": "2026-06-08",
+      "id": "2026-11-10-10",
+      "date": "2026-11-10",
       "time": "10:00",
-      "label": "Mo, 8. Juni — 10:00 Uhr",
+      "label": "Di, 10. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-09-10",
-      "date": "2026-06-09",
+      "id": "2026-11-11-10",
+      "date": "2026-11-11",
       "time": "10:00",
-      "label": "Di, 9. Juni — 10:00 Uhr",
+      "label": "Mi, 11. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-15-10",
-      "date": "2026-06-15",
+      "id": "2026-11-13-10",
+      "date": "2026-11-13",
       "time": "10:00",
-      "label": "Mo, 15. Juni — 10:00 Uhr",
+      "label": "Fr, 13. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-16-10",
-      "date": "2026-06-16",
+      "id": "2026-11-16-10",
+      "date": "2026-11-16",
       "time": "10:00",
-      "label": "Di, 16. Juni — 10:00 Uhr",
+      "label": "Mo, 16. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-22-10",
-      "date": "2026-06-22",
+      "id": "2026-11-17-10",
+      "date": "2026-11-17",
       "time": "10:00",
-      "label": "Mo, 22. Juni — 10:00 Uhr",
+      "label": "Di, 17. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-23-10",
-      "date": "2026-06-23",
+      "id": "2026-11-18-10",
+      "date": "2026-11-18",
       "time": "10:00",
-      "label": "Di, 23. Juni — 10:00 Uhr",
+      "label": "Mi, 18. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-29-10",
-      "date": "2026-06-29",
+      "id": "2026-11-20-10",
+      "date": "2026-11-20",
       "time": "10:00",
-      "label": "Mo, 29. Juni — 10:00 Uhr",
+      "label": "Fr, 20. November — 10:00 Uhr",
       "booked": false
     },
     {
-      "id": "2026-06-30-10",
-      "date": "2026-06-30",
+      "id": "2026-11-23-10",
+      "date": "2026-11-23",
       "time": "10:00",
-      "label": "Di, 30. Juni — 10:00 Uhr",
+      "label": "Mo, 23. November — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-11-24-10",
+      "date": "2026-11-24",
+      "time": "10:00",
+      "label": "Di, 24. November — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-11-25-10",
+      "date": "2026-11-25",
+      "time": "10:00",
+      "label": "Mi, 25. November — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-11-27-10",
+      "date": "2026-11-27",
+      "time": "10:00",
+      "label": "Fr, 27. November — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-11-30-10",
+      "date": "2026-11-30",
+      "time": "10:00",
+      "label": "Mo, 30. November — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-01-10",
+      "date": "2026-12-01",
+      "time": "10:00",
+      "label": "Di, 1. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-02-10",
+      "date": "2026-12-02",
+      "time": "10:00",
+      "label": "Mi, 2. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-04-10",
+      "date": "2026-12-04",
+      "time": "10:00",
+      "label": "Fr, 4. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-07-10",
+      "date": "2026-12-07",
+      "time": "10:00",
+      "label": "Mo, 7. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-08-10",
+      "date": "2026-12-08",
+      "time": "10:00",
+      "label": "Di, 8. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-09-10",
+      "date": "2026-12-09",
+      "time": "10:00",
+      "label": "Mi, 9. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-11-10",
+      "date": "2026-12-11",
+      "time": "10:00",
+      "label": "Fr, 11. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-14-10",
+      "date": "2026-12-14",
+      "time": "10:00",
+      "label": "Mo, 14. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-15-10",
+      "date": "2026-12-15",
+      "time": "10:00",
+      "label": "Di, 15. Dezember — 10:00 Uhr",
+      "booked": false
+    },
+    {
+      "id": "2026-12-16-10",
+      "date": "2026-12-16",
+      "time": "10:00",
+      "label": "Mi, 16. Dezember — 10:00 Uhr",
       "booked": false
     }
-
   ],
   "meta": {
     "duration_minutes": 45,
@@ -114,3 +198,5 @@
     "podcast": "Martin Fehrensen / Gespräch zum digitalen Wandel"
   }
 }
+
+```
