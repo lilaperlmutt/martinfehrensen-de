@@ -1,8 +1,9 @@
 ---
-title: "Aufkleber"
-date: 2026-03-08
-image: "aufkleber.jpeg"
-tags: ["Radfahren"]
+title: "Mehr Cat Content"
+date: 2026-10-12
+image: "mini.jpeg"
+tags: ["Life"]
 noindex: true
+reply: true
 ---
-Noch so viele Aufkleber, die geklebt werden wollen. Einfach bei jedem Ride mindestens einen verteilen.
+Cat Content gilt ja weithin als Pseudonym für unpolitische Beiträge. Dabei wäre das Internet 1 Million Mal besser, wenn Leute mehr davon posten würden, als sich über den nächsten Versuch von Rechtsaußen zu echauffieren, Grenzen immer weiter zu verschieben. Aufmerksamkeit ist ihre Währung. Wir alle haben es in der Hand, sie ihnen zu entziehen. Sagt Minou.
