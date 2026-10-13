@@ -110,7 +110,7 @@
       "date": "2026-11-27",
       "time": "10:00",
       "label": "Fr, 27. November — 10:00 Uhr",
-      "booked": false
+      "booked": true
     },
     {
       "id": "2026-11-30-10",
