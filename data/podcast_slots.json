@@ -40,7 +40,7 @@
       "date": "2026-11-10",
       "time": "10:00",
       "label": "Di, 10. November — 10:00 Uhr",
-      "booked": false
+      "booked": true
     },
     {
       "id": "2026-11-11-10",
