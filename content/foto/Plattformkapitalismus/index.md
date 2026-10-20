@@ -6,6 +6,6 @@ tags: ["Work"]
 noindex: true
 reply: true
 instagram: https://www.instagram.com/p/DehIx3II16y/
-article_url: https://www.socialmediawatchblog.de/coworking-im-braunen-sumpf-warum-sich-die-plattform-frage-nicht-moralisch-losen-lasst/
+artikel: https://www.socialmediawatchblog.de/coworking-im-braunen-sumpf-warum-sich-die-plattform-frage-nicht-moralisch-losen-lasst/
 ---
 Es gibt im Plattform-Kapitalismus schlicht kein „richtiges Leben im falschen“.
