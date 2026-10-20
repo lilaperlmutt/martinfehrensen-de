@@ -25,7 +25,7 @@
 <div class="post-body">{{ $page.Content }}</div>
       {{ with $url }}
 <div class="link-card">
-<a href="{{ . }}" target="_blank" rel="noopener">
+<a href="{{ . }}" target="_blank" rel="noopener noreferrer">
 <div class="link-card-body">
 <div class="link-card-title">{{ $title }}</div>
 <div class="link-card-domain">{{ . | replaceRE "https?://([^/]+).*" "$1" }}</div>
@@ -53,7 +53,9 @@
         {{ $page.Content }}
 </div>
     {{ end }}
-    {{ if or $page.Params.reply $page.Params.instagram }}
+
+    {{/* --- Aktionen / Links --- */}}
+    {{ if or $page.Params.reply $page.Params.instagram $page.Params.article_url }}
 <div class="post-reply">
   {{ if $page.Params.reply }}
   <a href="#" class="post-reply-link" data-title="{{ $page.Title }}" data-url="https://martinfehrensen.de{{ $page.RelPermalink }}" onclick="
@@ -62,17 +64,30 @@
     this.href = 'mai' + 'lto:' + 'kontakt' + '@' + 'martinfehrensen' + '.' + 'de' + '?subject=' + t + '&body=' + b;
   ">↩ Antworten</a>
   {{ end }}
-  {{ with $page.Params.instagram }}
-  <a href="{{ . }}" class="post-reply-link post-instagram-link" rel="noopener" target="_blank">
+
+  {{ with $page.Params.article_url }}
+  <a href="{{ . }}" class="post-reply-link post-article-link" rel="noopener noreferrer" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/>
-      <circle cx="12" cy="13" r="3"/>
+      <rect width="20" height="16" x="2" y="4" rx="2"/>
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+    </svg>
+    Artikel
+  </a>
+  {{ end }}
+
+  {{ with $page.Params.instagram }}
+  <a href="{{ . }}" class="post-reply-link post-instagram-link" rel="noopener noreferrer" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
     </svg>
     Instagram
   </a>
   {{ end }}
 </div>
 {{ end }}
+
     {{ with $page.Params.tags }}
 <div class="post-tags">
       {{ range . }}<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}
