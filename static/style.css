@@ -20,13 +20,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:        #262523;
+    --bg:        #1a1a1a;
     --bg2:       #1E1D26;
     --text:      #E8E7F0;
     --text2:     #8A8897;
     --accent:    #9B93F5;
     --ui:        #8A8897;
-    --footer-bg: #262523;
+    --footer-bg: #1a1a1a;
     --footer-text: #E8E7F0;
   }
 }
