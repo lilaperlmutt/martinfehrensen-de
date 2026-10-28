@@ -34,11 +34,11 @@ Plattformen kontrollieren die Distribution, KI verändert Produktion, Sichtbarke
 
 ### Kommunikation in Zeiten von Plattformen und KI: Worauf es jetzt ankommt
 
-Wie erreichen Organisationen, Behörden und Politik noch Menschen, wenn Plattformen die Sichtbarkeit steuern und KI-Systeme Antworten liefern, bevor jemand eine Website besucht? Ein Impuls mit Diskussion über:
+Wie erreichen Redaktionen, Behörden und Politiker:innen noch Menschen, wenn Plattformen die Sichtbarkeit steuern und KI-Systeme Antworten liefern, bevor jemand eine Website besucht? 
 
-- wie Plattformen und Algorithmen Reichweite verteilen und was Kommunikation davon beeinflussen kann,
-- wo KI die Arbeit wirklich erleichtert und wo sie Risiken schafft,
-- worauf Kommunikationsverantwortliche bei Strategie und Ressourcen jetzt setzen sollten.
+- Wie Plattformen und Algorithmen Reichweite verteilen und was Kommunikation davon beeinflussen kann.
+- Wo KI die Arbeit wirklich erleichtert und wo sie Risiken schafft.
+- Worauf Kommunikationsverantwortliche bei Strategie und Ressourcen jetzt setzen sollten.
 
 ---
 
