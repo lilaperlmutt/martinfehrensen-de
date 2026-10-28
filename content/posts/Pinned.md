@@ -1,6 +1,5 @@
 ---
 title: "Willkommen"
-date: 2026-01-01
 draft: false
 tags: ["Meta"]
 description: "Willkommen"
