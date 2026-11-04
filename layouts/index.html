@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $allPages := where .Site.RegularPages.ByDate.Reverse "Params.unlisted" "!=" true }}
+{{ $allPages := where .Site.RegularPages.ByDate.Reverse "Params.unlisted" "ne" true }}
 {{ $pinned := where $allPages "Params.pinned" true }}
 {{ $rest := where $allPages "Params.pinned" "!=" true }}
 {{ $pages := $pinned | append $rest }}
