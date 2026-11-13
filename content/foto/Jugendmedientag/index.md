@@ -11,5 +11,5 @@ About yesterday:
 - ARD, ZDF, Deutschlandfunk veranstalten einen [Jugendmedientag](https://www.jugendmedientag.net/)
 - 280 Veranstaltungen, 8 Livestreams, ein Ziel: Social Media neu denken
 - Ich durfte als Experte erklären, was die Plattformen „mit uns" machen
-- Hat Mega Spaß gemacht - nicht zuletzt wegen der tollen Schüler:innen, die vor Ort waren, und den wunderbaren Kolleg:innen: Magdalena Stefely, Fabian Grischkat, Merve Kayıkçı, yours truly, Leonie Maderstein
+- Hat Mega Spaß gemacht - nicht zuletzt wegen der tollen Schüler:innen, die vor Ort waren, und den wunderbaren Kolleg:innen: Leonie Maderstein, Fabian Grischkat, Merve Kayıkçı und Magdalena Stefely
 - Danke an [Nils Wagner](https://www.instagram.com/nils.wagner/) für die tollen Bilder! 
