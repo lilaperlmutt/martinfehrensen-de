@@ -1,7 +1,7 @@
 ---
 title: "Jugendmedientag 2026"
 date: 2026-11-13
-image: "jugendmedientag-2026.jpeg"
+image: "jugendmedientag.jpeg"
 tags: ["Work"]
 noindex: true
 reply: true
